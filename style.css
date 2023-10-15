@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: rgb(168, 168, 168);
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#chaves {
+  font-size: 2.5rem;
+}
+
+#dustein {
+  font-size: 2.2rem;
+}
+
+.mainWindow {
+  display: flex;
+  background-color: rgb(35, 35, 35);
+  color: rgb(213, 230, 255);
+  height: 70vh;
+}
+
+.sidebar {
+  background-color: rgb(42, 42, 58);
+  padding: 1rem;
+}
+
+.sideMenu {
+  line-height: 2rem;
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: aliceblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-color: aliceblue;
+}
