@@ -4,36 +4,61 @@
   box-sizing: border-box;
 }
 
-.head {
-  background-color: rgb(168, 168, 168);
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#chaves {
-  font-size: 2.5rem;
+.head {
+  background-color: rgb(71, 71, 71);
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  letter-spacing: 0.5rem;
+  color: rgb(187, 140, 52);
+  font-weight: 800;
+  font-family: 'Rubik', 'Courier New', Courier, monospace;
 }
 
 #dustein {
   font-size: 2.2rem;
+  color: black;
 }
 
 .mainWindow {
   display: flex;
+  height: 100%;
   background-color: rgb(35, 35, 35);
   color: rgb(213, 230, 255);
-  height: 70vh;
 }
 
 .sidebar {
   background-color: rgb(42, 42, 58);
   padding: 1rem;
+  padding-right: 2rem;
 }
 
 .sideMenu {
-  line-height: 2rem;
+  line-height: 3rem;
   list-style: none;
+  font-size: 1.5rem;
+}
+
+#one {
+  color: rgb(241, 241, 241);
+}
+#two {
+  color: rgb(85, 226, 85);
+}
+#three {
+  color: rgb(228, 116, 234)
+}
+#four {
+  color:rgb(115, 202, 205)
+}
+#five {
+  color: rgb(240, 240, 97)
 }
 
 .footer {
@@ -42,5 +67,5 @@
   color: aliceblue;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-color: aliceblue;
+  border-top: 3px double rgb(95, 95, 95);
 }
